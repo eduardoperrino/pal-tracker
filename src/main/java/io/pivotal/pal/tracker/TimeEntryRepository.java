@@ -13,6 +13,6 @@ public interface TimeEntryRepository {
 
     TimeEntry update(long id, TimeEntry entity);
 
-    TimeEntry delete(long id);
+    void delete(long id);
 
 }
